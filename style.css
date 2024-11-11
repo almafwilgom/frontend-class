@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main__container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(53, 51, 48) ;
+}
+
+.header__container{
+    height: 10vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.header__inner__container {
+    padding: 0px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.header__logo{
+   width: 100px; 
+   height: 50px;
+   background-color: aliceblue;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+}
+
+.header__button{
+  padding: 4px 4px;
+  border-radius: 12px;
+  cursor: pointer;
+}
